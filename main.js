@@ -24,3 +24,20 @@ function nextBlock(){
    move();
    putBeeper();
 }
+
+/* There is also simpler solution:
+
+function main(){
+putBeeper();
+nextBlock();
+nextBlock();
+nextBlock();
+}
+
+function nextBlock(){
+move()
+turnLeft();
+move();
+putBeeper();
+turnRight();
+}
